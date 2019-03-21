@@ -1,5 +1,4 @@
 ---
-# Ref: https://github.com/deafjava/docker-oraclejava8-tomcat8-mysql5.7
 version : '3'
 services:
   webapp:
