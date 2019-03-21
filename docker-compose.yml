@@ -9,7 +9,7 @@ services:
       JDBC_USER: root
       JDBC_PASS: password
     ports:
-     - "80:8080"
+     - "8080:8080"
     volumes:
      - ./tomcat/webapps:/usr/local/tomcat/webapps
     depends_on:
